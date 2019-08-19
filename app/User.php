@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Models\Cv\Profile;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -36,4 +37,9 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+    //Relations
+    public function profile() { return $this->hasOne(Profile::class); }
+
+
+
 }

@@ -21,7 +21,7 @@
 
 <!-- End Google Tag Manager (noscript) -->
 <div class="wrapper ">
-    <div class="sidebar" data-color="rose" data-background-color="whrite" data-image="../assets/img/sidebar-1.jpg">
+    <div class="sidebar" data-color="rose" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
         <div class="logo">
             <a href="#" class="simple-text logo-normal">
                 Creative Tim
